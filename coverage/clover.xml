@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1584757290973" clover="3.2.0">
-  <project timestamp="1584757290973" name="All files">
-    <metrics statements="20" coveredstatements="15" conditionals="15" coveredconditionals="3" methods="4" coveredmethods="4" elements="39" coveredelements="22" complexity="0" loc="20" ncloc="20" packages="2" files="3" classes="3"/>
+<coverage generated="1584758051610" clover="3.2.0">
+  <project timestamp="1584758051610" name="All files">
+    <metrics statements="24" coveredstatements="23" conditionals="23" coveredconditionals="19" methods="4" coveredmethods="4" elements="51" coveredelements="46" complexity="0" loc="24" ncloc="24" packages="2" files="3" classes="3"/>
     <package name="lib">
-      <metrics statements="14" coveredstatements="9" conditionals="12" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="18" coveredstatements="17" conditionals="20" coveredconditionals="19" methods="2" coveredmethods="2"/>
       <file name="app.js" path="/Users/nathan/alchemy/career-track/http-with-net/lib/app.js">
-        <metrics statements="14" coveredstatements="9" conditionals="12" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="18" coveredstatements="17" conditionals="20" coveredconditionals="19" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="11" count="1" type="cond" truecount="3" falsecount="1"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">
@@ -27,14 +31,14 @@
       <file name="createResponse.js" path="/Users/nathan/alchemy/career-track/http-with-net/lib/utils/createResponse.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="cond" truecount="0" falsecount="3"/>
-        <line num="2" count="2" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
       </file>
       <file name="parseRequest.js" path="/Users/nathan/alchemy/career-track/http-with-net/lib/utils/parseRequest.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
       </file>
     </package>
   </project>
