@@ -4,13 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --verbose --runInBand",
-    "test:watch": "npm run test -- --watch",
-    "start": "node server.js",
-    "start:watch": "nodemon server.js"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watchAll --coverage",
+    "start:watch": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +17,5 @@
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
-  },
-  "dependencies": {}
+  }
 }
